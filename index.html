@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="PetFeliz — tudo para o seu melhor amigo. Produtos, banho e tosa, consultas veterinárias e muito carinho."
+    >
+
+    <title>PetFeliz | Tudo para o seu melhor amigo</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- ============================== -->
+    <!-- TOPO -->
+    <!-- ============================== -->
+
+    <div class="topbar">
+        <div class="container topinner">
+            <span>📍 Av. das Patas, 123 — Vitória/ES</span>
+            <span>☎ (27) 99999-9999</span>
+            <span>◷ Seg–Sáb: 8h às 20h | Dom: 8h às 14h</span>
+            <span>◎　f　▶</span>
+        </div>
+    </div>
+
+
+    <!-- ============================== -->
+    <!-- CABEÇALHO -->
+    <!-- ============================== -->
+
+    <header class="mainhead">
+        <div class="container nav">
+
+            <a class="brand" href="#inicio">
+                <span class="paw">🐾</span>
+
+                <span>
+                    Pet<b>Feliz</b>
+                    <small>Tudo para o seu melhor amigo</small>
+                </span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Abrir menu"
+            >
+                ☰
+            </button>
+
+            <nav class="navlinks" id="navlinks">
+                <a class="active" href="#inicio">Início</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <div class="navtools">
+
+                <form class="search" id="searchForm">
+                    <input
+                        id="searchInput"
+                        placeholder="Buscar produtos, serviços..."
+                        aria-label="Buscar"
+                    >
+
+                    <button aria-label="Pesquisar">
+                        ⌕
+                    </button>
+                </form>
+
+                <button
+                    class="iconbtn"
+                    id="accountBtn"
+                    aria-label="Minha conta"
+                >
+                    ♙
+                </button>
+
+                <button
+                    class="iconbtn"
+                    id="cartBtn"
+                    aria-label="Carrinho"
+                >
+                    🛒
+                    <span class="cartcount" id="cartCount">
+                        0
+                    </span>
+                </button>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- ============================== -->
+    <!-- CONTEÚDO PRINCIPAL -->
+    <!-- ============================== -->
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero" id="inicio">
+
+            <div class="container hero-grid">
+
+                <div>
+
+                    <div class="eyebrow">
+                        Bem-vindo à PetFeliz!
+                    </div>
+
+                    <h1>
+                        Mais amor, cuidado<br>
+                        e bem-estar para o <em>seu pet!</em>
+                    </h1>
+
+                    <p>
+                        Aqui você encontra produtos de qualidade,
+                        serviços especializados e uma equipe apaixonada
+                        por animais.
+                    </p>
+
+                    <a
+                        class="btn btn-yellow"
+                        href="#servicos"
+                    >
+                        🐾　Conheça nossos serviços
+                    </a>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <span class="float-paw p1">🐾</span>
+                    <span class="float-paw p2">♡</span>
+                    <span class="float-paw p3">🐾</span>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1000&q=85"
+                        alt="Cachorro golden retriever feliz"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================== -->
+        <!-- CATEGORIAS -->
+        <!-- ============================== -->
+
+        <section class="category-strip">
+
+            <div class="container categories">
+
+                <a
+                    class="category"
+                    href="#produtos"
+                    data-filter="Cães"
+                >
+                    <span class="emoji">🐶</span>
+                    <strong>Cães</strong>
+                </a>
+
+                <a
+                    class="category"
+                    href="#produtos"
+                    data-filter="Gatos"
+                >
+                    <span class="emoji">🐱</span>
+                    <strong>Gatos</strong>
+                </a>
+
+                <a
+                    class="category"
+                    href="#produtos"
+                    data-filter="Rações"
+                >
+                    <span class="emoji">🥣</span>
+                    <strong>Rações</strong>
+                </a>
+
+                <a
+                    class="category"
+                    href="#produtos"
+                    data-filter="Higiene"
+                >
+                    <span class="emoji">🫧</span>
+                    <strong>Higiene e Beleza</strong>
+                </a>
+
+                <a
+                    class="category"
+                    href="#produtos"
+                    data-filter="Acessórios"
+                >
+                    <span class="emoji">🦴</span>
+                    <strong>Acessórios</strong>
+                </a>
+
+                <a
+                    class="category"
+                    href="#produtos"
+                    data-filter="Brinquedos"
+                >
+                    <span class="emoji">🎾</span>
+                    <strong>Brinquedos</strong>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================== -->
+        <!-- PRODUTOS -->
+        <!-- ============================== -->
+
+        <section class="section" id="produtos">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <div>
+
+                        <div class="eyebrow">
+                            Produtos em destaque
+                        </div>
+
+                        <h2>
+                            Os melhores produtos para o seu pet
+                        </h2>
+
+                    </div>
+
+                    <a
+                        class="textlink"
+                        href="#produtos"
+                        id="clearFilter"
+                    >
+                        Ver todos os produtos →
+                    </a>
+
+                </div>
+
+
+                <div
+                    class="products"
+                    id="productGrid"
+                >
+
+                    <article
+                        class="product"
+                        data-category="Rações Cães"
+                    >
+
+                        <div class="product-img">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1589924691995-400dc9ECC119?auto=format&fit=crop&w=600&q=80"
+                                alt="Ração para cães"
+                                onerror="this.src='https://images.unsplash.com/photo-1589924691995-400dc9ECC119?auto=format&fit=crop&w=600&q=80'"
+                            >
+
+                        </div>
+
+                        <div class="type">
+                            Ração • Cães
+                        </div>
+
+                        <h3>
+                            Ração Premier Fórmula Cães Adultos 15kg
+                        </h3>
+
+                        <div class="rating">
+                            ★★★★★ <small>(128)</small>
+                        </div>
+
+                        <div class="price">
+                            R$ 179,90
+                        </div>
+
+                        <button
+                            class="btn btn-purple add-cart"
+                            data-name="Ração Premier Fórmula"
+                        >
+                            🛒 Adicionar ao carrinho
+                        </button>
+
+                    </article>
+
+
+                    <article
+                        class="product"
+                        data-category="Rações Gatos"
+                    >
+
+                        <div class="product-img">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=600&q=85"
+                                alt="Gato brincando"
+                            >
+
+                        </div>
+
+                        <div class="type">
+                            Ração • Gatos
+                        </div>
+
+                        <h3>
+                            Ração Whiskas Gatos Adultos Carne 10,1kg
+                        </h3>
+
+                        <div class="rating">
+                            ★★★★★ <small>(96)</small>
+                        </div>
+
+                        <div class="price">
+                            R$ 119,90
+                        </div>
+
+                        <button
+                            class="btn btn-purple add-cart"
+                            data-name="Ração Whiskas Gatos Adultos"
+                        >
+                            🛒 Adicionar ao carrinho
+                        </button>
+
+                    </article>
+
+
+                    <article
+                        class="product"
+                        data-category="Acessórios Cães"
+                    >
+
+                        <div class="product-img">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?auto=format&fit=crop&w=600&q=85"
+                                alt="Caminha confortável para pet"
+                            >
+
+                        </div>
+
+                        <div class="type">
+                            Cama • Acessórios
+                        </div>
+
+                        <h3>
+                            Cama Pet Confort Tamanho M
+                        </h3>
+
+                        <div class="rating">
+                            ★★★★★ <small>(64)</small>
+                        </div>
+
+                        <div class="price">
+                            R$ 89,90
+                        </div>
+
+                        <button
+                            class="btn btn-purple add-cart"
+                            data-name="Cama Pet Confort M"
+                        >
+                            🛒 Adicionar ao carrinho
+                        </button>
+
+                    </article>
+
+
+                    <article
+                        class="product"
+                        data-category="Brinquedos Cães"
+                    >
+
+                        <div class="product-img">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&w=600&q=85"
+                                alt="Cachorro com brinquedo"
+                            >
+
+                        </div>
+
+                        <div class="type">
+                            Brinquedo • Cães
+                        </div>
+
+                        <h3>
+                            Bola Interativa para Cães 10cm
+                        </h3>
+
+                        <div class="rating">
+                            ★★★★★ <small>(47)</small>
+                        </div>
+
+                        <div class="price">
+                            R$ 29,90
+                        </div>
+
+                        <button
+                            class="btn btn-purple add-cart"
+                            data-name="Bola Interativa para Cães"
+                        >
+                            🛒 Adicionar ao carrinho
+                        </button>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================== -->
+        <!-- SERVIÇOS -->
+        <!-- ============================== -->
+
+        <section
+            class="section services"
+            id="servicos"
+        >
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <div>
+
+                        <div class="eyebrow">
+                            Nossos serviços
+                        </div>
+
+                        <h2>
+                            Cuidado completo para todas as fases
+                        </h2>
+
+                        <p
+                            style="color:var(--muted);margin:8px 0 0"
+                        >
+                            Do banho ao passeio, temos tudo para seu pet
+                            estar saudável, alegre e bem cuidado.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="service-grid">
+
+                    <div class="service">
+
+                        <div class="service-icon">
+                            🛁
+                        </div>
+
+                        <h3>
+                            Banho e Tosa
+                        </h3>
+
+                        <p>
+                            Higiene, beleza e bem-estar com todo carinho.
+                        </p>
+
+                        <button
+                            class="btn btn-purple book-service"
+                            data-service="Banho e Tosa"
+                        >
+                            Agendar horário
+                        </button>
+
+                    </div>
+
+
+                    <div class="service">
+
+                        <div class="service-icon">
+                            🩺
+                        </div>
+
+                        <h3>
+                            Consultas Veterinárias
+                        </h3>
+
+                        <p>
+                            Acompanhamento e prevenção para uma vida longa.
+                        </p>
+
+                        <button
+                            class="btn btn-purple book-service"
+                            data-service="Consulta Veterinária"
+                        >
+                            Agendar horário
+                        </button>
+
+                    </div>
+
+
+                    <div class="service">
+
+                        <div class="service-icon">
+                            💉
+                        </div>
+
+                        <h3>
+                            Vacinação
+                        </h3>
+
+                        <p>
+                            Mais proteção e saúde para o seu melhor amigo.
+                        </p>
+
+                        <button
+                            class="btn btn-purple book-service"
+                            data-service="Vacinação"
+                        >
+                            Agendar horário
+                        </button>
+
+                    </div>
+
+
+                    <div class="service">
+
+                        <div class="service-icon">
+                            🏡
+                        </div>
+
+                        <h3>
+                            Hotel e Creche
+                        </h3>
+
+                        <p>
+                            Conforto, diversão e companhia na sua ausência.
+                        </p>
+
+                        <button
+                            class="btn btn-purple book-service"
+                            data-service="Hotel e Creche"
+                        >
+                            Consultar vagas
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================== -->
+        <!-- SOBRE -->
+        <!-- ============================== -->
+
+        <section
+            class="section"
+            id="sobre"
+        >
+
+            <div class="container about-grid">
+
+                <div class="about-photo">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=85"
+                        alt="Cachorro atento em ambiente externo"
+                    >
+
+                </div>
+
+
+                <div class="about-copy">
+
+                    <div class="eyebrow">
+                        Sobre nós
+                    </div>
+
+                    <h2>
+                        Somos a PetFeliz!
+                    </h2>
+
+                    <p>
+                        Mais do que um petshop, somos uma família que ama
+                        e cuida de animais. Acreditamos que cada pet é único
+                        e merece todo o carinho, respeito e atenção.
+                    </p>
+
+                    <p>
+                        Nossa missão é tornar a vida dos pets e de suas
+                        famílias mais feliz, oferecendo produtos selecionados
+                        e serviços feitos com amor.
+                    </p>
+
+
+                    <div class="values">
+
+                        <div class="value">
+                            <span>💜</span>
+                            <strong>Equipe especializada</strong>
+                        </div>
+
+                        <div class="value">
+                            <span>🛡️</span>
+                            <strong>Produtos de qualidade</strong>
+                        </div>
+
+                        <div class="value">
+                            <span>🐾</span>
+                            <strong>Atendimento personalizado</strong>
+                        </div>
+
+                        <div class="value">
+                            <span>♡</span>
+                            <strong>Bem-estar animal</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================== -->
+        <!-- DEPOIMENTOS -->
+        <!-- ============================== -->
+
+        <section class="section testimonials">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <div>
+
+                        <div class="eyebrow">
+                            O que nossos clientes dizem
+                        </div>
+
+                        <h2>
+                            Depoimentos
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="quotes">
+
+                    <article class="quote">
+
+                        <p>
+                            “Sempre levo meu cachorro aqui! O atendimento
+                            é incrível e ele sempre volta feliz.”
+                        </p>
+
+                        <div class="person">
+
+                            <div class="avatar">
+                                🐶
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Mariana S.
+                                </strong>
+
+                                <small>
+                                    Cliente PetFeliz
+                                </small>
+
+                                <div class="rating">
+                                    ★★★★★
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="quote">
+
+                        <p>
+                            “A loja tem tudo o que preciso e o pessoal
+                            é super atencioso. Recomendo muito!”
+                        </p>
+
+                        <div class="person">
+
+                            <div class="avatar">
+                                👩🏻
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Lucas T.
+                                </strong>
+
+                                <small>
+                                    Cliente PetFeliz
+                                </small>
+
+                                <div class="rating">
+                                    ★★★★★
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="quote">
+
+                        <p>
+                            “Minha gatinha ama o hotel! Recebo fotos e
+                            atualizações todos os dias. Uma tranquilidade!”
+                        </p>
+
+                        <div class="person">
+
+                            <div class="avatar">
+                                🐱
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Fernanda L.
+                                </strong>
+
+                                <small>
+                                    Cliente PetFeliz
+                                </small>
+
+                                <div class="rating">
+                                    ★★★★★
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================== -->
+        <!-- NEWSLETTER -->
+        <!-- ============================== -->
+
+        <section class="newsletter">
+
+            <div class="container">
+
+                <div class="newsletter-box">
+
+                    <div>
+
+                        <h2>
+                            🐾 Receba novidades e ofertas!
+                        </h2>
+
+                        <p>
+                            Cadastre seu e-mail e fique por dentro
+                            das novidades da PetFeliz.
+                        </p>
+
+                    </div>
+
+
+                    <form
+                        class="subscribe"
+                        id="newsletterForm"
+                    >
+
+                        <input
+                            type="email"
+                            required
+                            placeholder="Seu melhor e-mail"
+                            aria-label="Seu melhor e-mail"
+                        >
+
+                        <button class="btn btn-yellow">
+                            Quero receber
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ============================== -->
+    <!-- RODAPÉ -->
+    <!-- ============================== -->
+
+    <footer id="contato">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <a
+                    class="brand"
+                    href="#inicio"
+                >
+                    <span class="paw">🐾</span>
+
+                    <span>
+                        Pet<b>Feliz</b>
+                        <small>
+                            Tudo para o seu melhor amigo
+                        </small>
+                    </span>
+                </a>
+
+                <p>
+                    Amor, cuidado e alegria em cada patinha.
+                    Conte com a gente para cuidar de quem faz
+                    parte da sua família.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Links úteis
+                </h3>
+
+                <div class="footer-links">
+
+                    <a href="#inicio">
+                        Início
+                    </a>
+
+                    <a href="#produtos">
+                        Produtos
+                    </a>
+
+                    <a href="#servicos">
+                        Serviços
+                    </a>
+
+                    <a href="#sobre">
+                        Sobre nós
+                    </a>
+
+                    <a href="#contato">
+                        Contato
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Fale com a gente
+                </h3>
+
+                <p>
+                    📍 Av. das Patas, 123 — Vitória/ES<br>
+                    ☎ (27) 99999-9999<br>
+                    ✉ contato@petfeliz.com.br<br>
+                    ◷ Seg–Sáb: 8h às 20h<br>
+                    Dom: 8h às 14h
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Siga-nos
+                </h3>
+
+                <div class="socials">
+
+                    <a
+                        href="#"
+                        aria-label="Instagram"
+                    >
+                        ◎
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="Facebook"
+                    >
+                        f
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="YouTube"
+                    >
+                        ▶
+                    </a>
+
+                </div>
+
+                <p>
+                    Porque eles merecem o melhor! 💜
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container bottominner">
+
+                <span>
+                    © 2026 PetFeliz. Todos os direitos reservados.
+                </span>
+
+                <span>
+                    Feito com 💜 para os melhores amigos.
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ============================== -->
+    <!-- TOAST -->
+    <!-- ============================== -->
+
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite"
+    ></div>
+
+
+    <!-- ============================== -->
+    <!-- MODAL DE AGENDAMENTO -->
+    <!-- ============================== -->
+
+    <div
+        class="modal-backdrop"
+        id="modalBackdrop"
+    >
+
+        <div
+            class="modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modalTitle"
+        >
+
+            <button
+                class="close"
+                id="modalClose"
+                aria-label="Fechar"
+            >
+                ×
+            </button>
+
+
+            <h2 id="modalTitle">
+                Agende seu atendimento
+            </h2>
+
+
+            <p
+                id="modalDesc"
+                style="color:var(--muted);font-size:.88rem"
+            >
+                Preencha os dados e nossa equipe entrará em contato.
+            </p>
+
+
+            <form id="bookingForm">
+
+                <label for="clientName">
+                    Seu nome
+                </label>
+
+                <input
+                    id="clientName"
+                    required
+                    placeholder="Como podemos te chamar?"
+                >
+
+
+                <label for="petName">
+                    Nome do pet
+                </label>
+
+                <input
+                    id="petName"
+                    required
+                    placeholder="Nome do seu melhor amigo"
+                >
+
+
+                <label for="serviceSelect">
+                    Serviço
+                </label>
+
+                <select id="serviceSelect">
+
+                    <option>
+                        Banho e Tosa
+                    </option>
+
+                    <option>
+                        Consulta Veterinária
+                    </option>
+
+                    <option>
+                        Vacinação
+                    </option>
+
+                    <option>
+                        Hotel e Creche
+                    </option>
+
+                </select>
+
+
+                <label for="clientPhone">
+                    Telefone / WhatsApp
+                </label>
+
+                <input
+                    id="clientPhone"
+                    required
+                    placeholder="(27) 99999-9999"
+                >
+
+
+                <button class="btn btn-purple">
+                    Enviar solicitação
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- ============================== -->
+    <!-- JAVASCRIPT -->
+    <!-- ============================== -->
+
+    <script
+        src="js/script.js"
+        defer
+    ></script>
+
+</body>
+</html>
